@@ -1,0 +1,85 @@
+body {
+  background-color: whitesmoke;
+  font-family: 'Assistant', sans-serif,'Playfair Display', serif;
+  color: #21306D;
+  font-size: medium;
+}
+
+.navbar {
+  color: #21306D;
+  font-size: 20px;
+  font-family: 'Assistant', sans-serif,'Playfair Display', serif;
+  font-style: bold;
+}
+
+.btn-login {
+  width: 130px;
+  height: 75px;
+  background: #132363;
+  color: white;
+  border-radius: 0px;
+  margin-top: -20px important;
+  margin-bottom: -8px important;
+  margin-right: -20px important;
+}
+
+.btn-login:hover {
+  background-color: white;
+  color: #132363;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+header {
+  padding: 180px 0 165px;
+  background-image: url(../images/bg.png);
+  background-size: cover;
+  margin-top: -90px;
+}
+
+h1, p {
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+p {
+  font-size: 22px;
+}
+
+.btn-get-started {
+  background-color: #f3842f;
+  color: white;
+}
+
+.btn-get-started:hover {
+  background-color: #f19650;
+}
+
+.section-stats {
+  margin-top: -50px;
+}
+
+.section-stats .stats-detail {
+  padding-top: 15px;
+  background-color: white;
+  padding-left: 40px;
+}
+
+.section-stats h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.section-stats p {
+  font-size: 20px;
+  font-weight: lighter;
+  color: #132363;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
