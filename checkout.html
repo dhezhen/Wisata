@@ -23,47 +23,18 @@
     <!-- navbar -->
     <div class="container">
         <nav class="row navbar navbar-expand-lg navbar-light bg-white">
-            <a href="#" class="nav-brand">
-                <img src="Front-end/images/logo.png" alt=" logo">
-            </a>
-
-            <Button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navb">
-                <span class="navbar-toggler-icon"> </span>
-
-            </Button>
-            <div class="collapse navbar-collapse" id="navb">
-                <ul class="navbar-nav ml-auto mr-3">
-                    <li class="nav-item mx-md-2"><a href="" class="nav-link">Home</a></li>
-                    <li class="nav-item mx-md-2"><a href="" class="nav-link">Paket Travel</a></li>
-                    <li class="nav-item dropdown">
-                        <a href="" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
-                            Services
-                        </a>
-                        <div class="dropdown-menu">
-                            <a href="" class="dropdown-item">Link</a>
-                            <a href="" class="dropdown-item">Link</a>
-                            <a href="" class="dropdown-item">Link</a>
-                        </div>
-                    </li>
-                    <li class="nav-item mx-md-2"><a href="" class="nav-link">Testimonial</a></li>
-                </ul>
-                <!--mobile buttton -->
-                <form action="" class="form-inline d-sm-block d-md-none">
-                    <Button class="btn-login my-2 my-sm-0 px-4">
-                        Masuk
-                    </Button>
-                </form>
-
-                <!--mobile buttton -->
-
-                <!-- Desktop Butttonn -->
-                <form action="" class="form-inline my-2 my-lg-0 d-none d-sm-block d-md-block">
-                    <Button class="btn-login btn-navbar-right my-2 my-sm-0 px-4">
-                        Masuk
-                    </Button>
-                </form>
-                <!-- Desktop Butttonn -->
-            </div>
+          <div class="navbar-nav ml-auto mr-auto mr-m-auto mr-lg-0 mr-md-auto">
+              <a href="index.html" class="navbar-brand"> 
+                  <img src="front-end/images/logo.png" alt="">
+              </a>
+          </div>
+          <div class="ul navbar-nav mr-auto  d-none d-lg-block">
+              <li>
+                  <spa class="text-muted">
+                    | &nbsp;Beyond the explorer of the world
+                  </spa>
+              </li>
+          </div>
 
         </nav>
     </div>
@@ -84,6 +55,9 @@
                                 <li class="breadcrumb-item active">
                                     Details
                                 </li>
+                                <li class="breadcrumb-item active">
+                                    Checkout
+                                </li>
                             </ol>
                         </nav>
                     </div>
@@ -92,70 +66,37 @@
                 <div class="row">
                     <div class="col-lg-8 pl-0">
                         <div class="card card-details">
-                            <h1> Nusa Penida </h1>
-                            <p> Republic Of Indonesia Raya</p>
-                            <div class="gallery">
-                                <div class="xzoom-container">
-                                    <img src="front-end/images/nusapenida.png" class="xzoom" id="xzoom-default"
-                                        xoriginal="front-end/images/nusapenida.png" alt="gambar" />
-                                </div>
-                                <div class="xzoom-thumbs">
-                                    <a href="front-end/images/nusapenida.png">
-                                        <img src="front-end/images/nusapenida.png" class="xzoom-gallery" width="128"
-                                            xpreview="front-end/images/nusapenida.png" alt="">
-                                    </a>
-                                    
-                                    <a href="front-end/images/detail1.png">
-                                        <img src="front-end/images/detail1.png" class="xzoom-gallery" width="128"
-                                            xpreview="front-end/images/detail1.png" alt="">
-                                    </a>
-                                    <a href="front-end/images/detail2.png">
-                                        <img src="front-end/images/detail2.png" class="xzoom-gallery" width="128"
-                                            xpreview="front-end/images/detail2.png" alt="">
-                                    </a>
-                                </div>
+                            <h1> Who is Going ? </h1>
+                            <p> Trip to Ubud Bali</p>
+                            <div class="attendee">
+                                <table class="table table-responsive-sm text-center">
+                                    <thead> 
+                                        <tr>
+                                            <td>Picture</td>
+                                            <td>Name</td>
+                                            <td>Nationality</td>
+                                            <td>Visa</td>
+                                            <td>Passport</td>
+                                        </tr>
+                                        <tbody>
+                                            <tr>
+                                                <td> <img src="front-end/images/members.png" alt="" height="60px"></td>
+                                                <td class="align-midle"> Dede Husen </td>
+                                                <td class="align-midle"> CN </td>
+                                                <td class="align-midle"> N/A</td>
+                                                <td class="align-midle"> Active</td>
+                                                <td class="align-midle"> </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </thead>
+
+                                </table>
                             </div>
+                      
 
-                            <h2>Tentang Wisata</h2>
-                            <p>
-                                Nusa Penida is an island southeast of Indonesia's island Bali and a district of
-                                Klungkung Regency that includes
-                                the neighbouring small island of Nusa Lembongan. The Badung Strait separates the island
-                                and Bali.
-                                The interior of Nusa Penida is hilly with a maximum altitude of 524 metres
-                            </p>
-                            <p>
-                                Nusa Penida is an island southeast of Indonesia's island Bali and a district of
-                                Klungkung Regency that includes
-                                the neighbouring small island of Nusa Lembongan. The Badung Strait separates the island
-                                and Bali.
-                                The interior of Nusa Penida is hilly with a maximum altitude of 524 metres
-                            </p>
-                            <div class="features row">
-                                <div class="col-md-4">
-                                    <div class="description">
-                                        <img src="front-end/images/tiket.png" id=="featured-images" alt="">
-                                        <h3> Featured Event</h3>
-                                        <p> Tari Kecak</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 border-left">
-                                    <div class="description">
-                                        <img src="front-end/images/language.png" id=="featured-images" alt="">
-                                        <h3> Langugage</h3>
-                                        <p> Bahasa Indonesia</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 border-left">
-                                    <div class="description">
-                                        <img src="front-end/images/food-outline.png" id="featured-images" alt="">
-                                        <h3> Food</h3>
-                                        <p> Local Food</p>
-                                    </div>
-                                </div>
-
-
-                            </div>
+                           
+                           
                         </div>
                     </div>
                     <div class="col-lg-4">
