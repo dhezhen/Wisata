@@ -378,3 +378,135 @@ p{
     color: white;
   }
 }
+
+
+.text-blue{
+  color: #101667;
+  font-weight: bold;
+}
+.text-orange{
+  color: #f3842f;
+  font-weight: bolder;
+}
+h3{
+  font-weight: 600;
+  font-size: 14px;
+  color: #101667;
+}
+
+.disclaimer{
+  font-weight: 700;
+  font-size: 16px;
+  color:red
+}
+
+.gj-datepicker{
+.datepicker{
+  border-right: 0;
+  text-align: center;
+}
+}
+
+.input-group-append{
+  .btn{
+    padding-right: 30px;
+    align-items: center;
+  }
+}
+
+.btn-add-now{
+  background-color: #101667;
+  color: white;
+  &:hover{
+    background-color: #ffffff;
+    color:  #101667;
+    border-color:  #101667;
+  
+  }
+}
+
+ .payment-instructions{
+   font-weight: 300;
+   font-size: 14px;
+   color: #b1b1b1;
+   margin-top: 5px;
+   margin-bottom: 10px;
+ }
+
+
+ .bank{
+   .bank-item{
+     h3{
+       font-size: 18px;
+       color: #21306D;
+       margin-bottom: 0;
+     }
+
+     p{
+       margin-bottom: 0;
+       font-size: 16px ;
+         font-weight: normal;
+         color: #21306D;
+       
+     }
+     
+     .description{
+       margin-left: 10px;
+       overflow: hidden;
+       float: left;
+       p{
+         font-size: 16px ;
+         font-weight: normal;
+         color: #21306D;
+       }
+     }
+   }
+   .bank-image{
+     width: 45px;
+     height: 45px;
+     float: left;
+   }
+ }
+
+
+.section-success{
+
+  h1{
+    font-family: 'Poppins', sans-serif;
+    color: #101667;
+  }
+
+.img-success{
+  margin-top: 100px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+h2{
+   font-weight: 600;
+  font-size: 20px;
+  color: #170303;
+  margin-top: 20px;
+  
+}
+p{
+font-family: Assistant;
+font-weight: normal;
+font-size: 14px;
+text-align: center;
+color: #707070;
+
+
+}
+
+.btn-homepage{
+  background-color: #101667;
+  color: white;
+  width: 200px;
+border-radius: 10px;
+background: #21306d;
+margin-top: 10px;
+
+}
+
+}
